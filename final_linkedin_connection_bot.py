@@ -165,8 +165,8 @@ def run_weekly_script():
         driver.quit()
 
     # Enter your LinkedIn credentials
-    username.send_keys('harsh.dixit.engineer@gmail.com')
-    password.send_keys('KPhn@2004')
+    username.send_keys('e-mail')
+    password.send_keys('password')
 
     # Submit the login form
     password.send_keys(Keys.RETURN)
